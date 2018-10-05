@@ -14,7 +14,7 @@ RadioMenu * RadioMenu::create(MenuItem* item, ...)
 
 RadioMenu* RadioMenu::createWithArray(const Vector<MenuItem*>& arrayOfItems)
 {
-	auto ret = new RadioMenu();
+	auto ret = new RadioMenu111();
 	if (ret && ret->initWithArray(arrayOfItems))
 	{
 		ret->autorelease();
